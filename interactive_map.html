@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_31ffbfa9c774eddb5fb846cda89ba95f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_31ffbfa9c774eddb5fb846cda89ba95f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_31ffbfa9c774eddb5fb846cda89ba95f = L.map(
+                "map_31ffbfa9c774eddb5fb846cda89ba95f",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_45cbfc267bba2d792eb9c653855c5aa6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_45cbfc267bba2d792eb9c653855c5aa6.addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var marker_99d87765cfc8b8942ec48c10cf9b0d67 = L.marker(
+                [37.0902, -95.7129],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_51b760e288eb1cf46c9e7eb8350b3e45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99d87765cfc8b8942ec48c10cf9b0d67.setIcon(icon_51b760e288eb1cf46c9e7eb8350b3e45);
+        
+    
+        var popup_e042fb9f93f26be89003c5e4398794d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e265328b3700d50e25391a5b25f0e21 = $(`<div id="html_0e265328b3700d50e25391a5b25f0e21" style="width: 100.0%; height: 100.0%;">United States: Deployed - 1770, Total - 3708.0</div>`)[0];
+                popup_e042fb9f93f26be89003c5e4398794d6.setContent(html_0e265328b3700d50e25391a5b25f0e21);
+            
+        
+
+        marker_99d87765cfc8b8942ec48c10cf9b0d67.bindPopup(popup_e042fb9f93f26be89003c5e4398794d6)
+        ;
+
+        
+    
+    
+            var marker_be54626b3ed806c1c2596e01393db3a6 = L.marker(
+                [61.524, 105.3188],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_749d973e616e3d7e4268fd1ad397ee97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be54626b3ed806c1c2596e01393db3a6.setIcon(icon_749d973e616e3d7e4268fd1ad397ee97);
+        
+    
+        var popup_dd3c705bf5643e978c727ee616d63e9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c96df608bed88a2b49b46a0e1938cef = $(`<div id="html_6c96df608bed88a2b49b46a0e1938cef" style="width: 100.0%; height: 100.0%;">Russia: Deployed - 1674, Total - 4489.0</div>`)[0];
+                popup_dd3c705bf5643e978c727ee616d63e9e.setContent(html_6c96df608bed88a2b49b46a0e1938cef);
+            
+        
+
+        marker_be54626b3ed806c1c2596e01393db3a6.bindPopup(popup_dd3c705bf5643e978c727ee616d63e9e)
+        ;
+
+        
+    
+    
+            var marker_cb375454170a0e06b89cdc10be3edf5f = L.marker(
+                [55.3781, -3.436],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_b055fe71c7cd8e85eccf3b7e92192e9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cb375454170a0e06b89cdc10be3edf5f.setIcon(icon_b055fe71c7cd8e85eccf3b7e92192e9a);
+        
+    
+        var popup_b90be00c851e9e7b381403675933ba8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_300f464056597b0fb3cb29f5a63a91fd = $(`<div id="html_300f464056597b0fb3cb29f5a63a91fd" style="width: 100.0%; height: 100.0%;">United Kingdom: Deployed - 120, Total - 225.0</div>`)[0];
+                popup_b90be00c851e9e7b381403675933ba8e.setContent(html_300f464056597b0fb3cb29f5a63a91fd);
+            
+        
+
+        marker_cb375454170a0e06b89cdc10be3edf5f.bindPopup(popup_b90be00c851e9e7b381403675933ba8e)
+        ;
+
+        
+    
+    
+            var marker_55bd068af35b7c5ef1a6961aec6255ee = L.marker(
+                [46.6034, 1.8883],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_708fa0de9877c506e51d6a5d6106f7ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55bd068af35b7c5ef1a6961aec6255ee.setIcon(icon_708fa0de9877c506e51d6a5d6106f7ea);
+        
+    
+        var popup_2cf699a53c6c1c49e7d6228760635888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba1a176d17e1a92f388cb6564f99617b = $(`<div id="html_ba1a176d17e1a92f388cb6564f99617b" style="width: 100.0%; height: 100.0%;">France: Deployed - 280, Total - 290.0</div>`)[0];
+                popup_2cf699a53c6c1c49e7d6228760635888.setContent(html_ba1a176d17e1a92f388cb6564f99617b);
+            
+        
+
+        marker_55bd068af35b7c5ef1a6961aec6255ee.bindPopup(popup_2cf699a53c6c1c49e7d6228760635888)
+        ;
+
+        
+    
+    
+            var marker_390b2189007f6ecf160c598afceaba6b = L.marker(
+                [35.8617, 104.1954],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_c194528bba0c6498fcd6e7eb3701642e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_390b2189007f6ecf160c598afceaba6b.setIcon(icon_c194528bba0c6498fcd6e7eb3701642e);
+        
+    
+        var popup_863ec79759293371409ca6662b46c5be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85e86fa61196763449c2954f54616fbf = $(`<div id="html_85e86fa61196763449c2954f54616fbf" style="width: 100.0%; height: 100.0%;">China: Deployed - 0, Total - 410.0</div>`)[0];
+                popup_863ec79759293371409ca6662b46c5be.setContent(html_85e86fa61196763449c2954f54616fbf);
+            
+        
+
+        marker_390b2189007f6ecf160c598afceaba6b.bindPopup(popup_863ec79759293371409ca6662b46c5be)
+        ;
+
+        
+    
+    
+            var marker_0bbbf6e5f269e14a0533e53e5d345b7d = L.marker(
+                [20.5937, 78.9629],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_62ca8212d0c235a75c3abd7f9da5211e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0bbbf6e5f269e14a0533e53e5d345b7d.setIcon(icon_62ca8212d0c235a75c3abd7f9da5211e);
+        
+    
+        var popup_f4d5d6a06fae340cdb9beae94bd7d23d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03bb0119ae6a61d16843b8fba5bb47fc = $(`<div id="html_03bb0119ae6a61d16843b8fba5bb47fc" style="width: 100.0%; height: 100.0%;">India: Deployed - 0, Total - 164.0</div>`)[0];
+                popup_f4d5d6a06fae340cdb9beae94bd7d23d.setContent(html_03bb0119ae6a61d16843b8fba5bb47fc);
+            
+        
+
+        marker_0bbbf6e5f269e14a0533e53e5d345b7d.bindPopup(popup_f4d5d6a06fae340cdb9beae94bd7d23d)
+        ;
+
+        
+    
+    
+            var marker_cbe9897ac6d3a77541a313839d28b5fe = L.marker(
+                [30.3753, 69.3451],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_8a17af2508416bea9480ce42316fd75b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cbe9897ac6d3a77541a313839d28b5fe.setIcon(icon_8a17af2508416bea9480ce42316fd75b);
+        
+    
+        var popup_3979196724a99a26fea87e7dc7ee17cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c1629c79180ca9e3628d8462edc33ae = $(`<div id="html_8c1629c79180ca9e3628d8462edc33ae" style="width: 100.0%; height: 100.0%;">Pakistan: Deployed - 0, Total - 170.0</div>`)[0];
+                popup_3979196724a99a26fea87e7dc7ee17cc.setContent(html_8c1629c79180ca9e3628d8462edc33ae);
+            
+        
+
+        marker_cbe9897ac6d3a77541a313839d28b5fe.bindPopup(popup_3979196724a99a26fea87e7dc7ee17cc)
+        ;
+
+        
+    
+    
+            var marker_f92125cdd24022fb57307eaed3ff7dcd = L.marker(
+                [40.3399, 127.5101],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_7a874445ecb178bae3c21a52ac343a39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f92125cdd24022fb57307eaed3ff7dcd.setIcon(icon_7a874445ecb178bae3c21a52ac343a39);
+        
+    
+        var popup_75220d12cb3fcf17fd6f6ea8b0a93449 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfa8eec67493b1c3e79ff36b8119568a = $(`<div id="html_bfa8eec67493b1c3e79ff36b8119568a" style="width: 100.0%; height: 100.0%;">North Korea: Deployed - 0, Total - 30.0</div>`)[0];
+                popup_75220d12cb3fcf17fd6f6ea8b0a93449.setContent(html_bfa8eec67493b1c3e79ff36b8119568a);
+            
+        
+
+        marker_f92125cdd24022fb57307eaed3ff7dcd.bindPopup(popup_75220d12cb3fcf17fd6f6ea8b0a93449)
+        ;
+
+        
+    
+    
+            var marker_97901795bca90520689a9f32e7a6a63f = L.marker(
+                [31.0461, 34.8516],
+                {}
+            ).addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+    
+            var icon_0c7c1c8aa56088b5d2d81971bcf7ac8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97901795bca90520689a9f32e7a6a63f.setIcon(icon_0c7c1c8aa56088b5d2d81971bcf7ac8d);
+        
+    
+        var popup_4e04935067ea01a12f169209314d8187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0ebcde5a19ca2829739cf84707e4dc1 = $(`<div id="html_f0ebcde5a19ca2829739cf84707e4dc1" style="width: 100.0%; height: 100.0%;">Israel: Deployed - 0, Total - 90.0</div>`)[0];
+                popup_4e04935067ea01a12f169209314d8187.setContent(html_f0ebcde5a19ca2829739cf84707e4dc1);
+            
+        
+
+        marker_97901795bca90520689a9f32e7a6a63f.bindPopup(popup_4e04935067ea01a12f169209314d8187)
+        ;
+
+        
+    
+    
+            tile_layer_45cbfc267bba2d792eb9c653855c5aa6.addTo(map_31ffbfa9c774eddb5fb846cda89ba95f);
+        
+</script>
+</html>
